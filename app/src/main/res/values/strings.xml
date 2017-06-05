@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+
+    <string name="show_name">Best quiz show</string>
+    <string name="quizStart">Let\'s begin the game!</string>
+
+    <!-- Quiz questions -->
+    <string name="question1">Question 1) Which bridges are in Budapest? (pick all applicable answers)</string>
+    <string name="question2">Question 2) What is the capital of Hungary?</string>
+    <string name="question3">Question 3) Are there trams in Budapest?</string>
+    <string name="question4">Question 4) Where is the Parliament of Hungary?</string>
+    <string name="question5">Question 5) Which tram line goes next to the Danube on Pest side?</string>
+    <string name="question6">Question 6) Which markets are in Budapest? (pick all applicable answers)</string>
+
+    <!-- Checkboxes -->
+    <string name="bridge1">Chain Bridge</string>
+    <string name="bridge2">Nowhere bridge</string>
+    <string name="bridge3">Margaret bridge</string>
+    <string name="bridge4">Neverending bridge</string>
+
+    <string name="market1">Lehel market</string>
+    <string name="market2">Vásárcsarnok</string>
+    <string name="market3">Hold utca market</string>
+    <string name="market4">Fish market</string>
+
+    <!-- EditText -->
+    <string name="hint">Write your answer here</string>
+
+    <!-- Radio buttons -->
+    <string name="yestram">yes</string>
+    <string name="notram">no</string>
+
+    <string name="budap">Buda</string>
+    <string name="pestp">Pest</string>
+
+    <string name="no2">Number 2</string>
+    <string name="no4">Number 4</string>
+
+    <!-- Answers -->
+    <string name="submit">Submit answers</string>
+</resources>

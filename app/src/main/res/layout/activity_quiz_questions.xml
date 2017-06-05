@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/notebook"
+    android:orientation="vertical"
+    tools:context="com.example.android.quizapp.QuizQuestions">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            style="@style/Question_style"
+            android:text="@string/question1" />
+
+        <CheckBox
+            android:id="@+id/chain_bridge"
+            style="@style/Checkbox"
+            android:onClick="bridgeClick"
+            android:text="@string/bridge1" />
+
+        <CheckBox
+            android:id="@+id/nowhere_bridge"
+            style="@style/Checkbox"
+            android:onClick="bridgeClick"
+            android:text="@string/bridge2" />
+
+        <CheckBox
+            android:id="@+id/margaret_bridge"
+            style="@style/Checkbox"
+            android:onClick="bridgeClick"
+            android:text="@string/bridge3" />
+
+        <CheckBox
+            android:id="@+id/neverending_bridge"
+            style="@style/Checkbox"
+            android:onClick="bridgeClick"
+            android:text="@string/bridge4" />
+
+        <TextView
+            style="@style/Question_style"
+            android:text="@string/question2" />
+
+        <EditText
+            android:id="@+id/capital"
+            style="@style/Edittext"
+            android:hint="@string/hint"
+            android:onClick="capitalClick" />
+
+        <TextView
+            style="@style/Question_style"
+            android:text="@string/question3" />
+
+        <RadioGroup style="@style/Radiogroup">
+
+            <RadioButton
+                android:id="@+id/yes_button"
+                style="@style/Radiobutton"
+                android:onClick="questionTram"
+                android:text="@string/yestram" />
+
+            <RadioButton
+                android:id="@+id/no_button"
+                style="@style/Radiobutton"
+                android:onClick="questionTram"
+                android:text="@string/notram" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/Question_style"
+            android:text="@string/question4" />
+
+        <RadioGroup style="@style/Radiogroup">
+
+            <RadioButton
+                android:id="@+id/buda_button"
+                style="@style/Radiobutton"
+                android:onClick="questionParliament"
+                android:text="@string/budap" />
+
+            <RadioButton
+                android:id="@+id/pest_button"
+                style="@style/Radiobutton"
+                android:onClick="questionParliament"
+                android:text="@string/pestp" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/Question_style"
+            android:text="@string/question5" />
+
+        <RadioGroup style="@style/Radiogroup">
+
+            <RadioButton
+                android:id="@+id/no2_button"
+                style="@style/Radiobutton"
+                android:onClick="questionDanube"
+                android:text="@string/no2" />
+
+            <RadioButton
+                android:id="@+id/no4_button"
+                style="@style/Radiobutton"
+                android:onClick="questionDanube"
+                android:text="@string/no4" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/Question_style"
+            android:text="@string/question6" />
+
+        <CheckBox
+            android:id="@+id/lehel"
+            style="@style/Checkbox"
+            android:onClick="marketClick"
+            android:text="@string/market1" />
+
+        <CheckBox
+            android:id="@+id/vasar"
+            style="@style/Checkbox"
+            android:onClick="marketClick"
+            android:text="@string/market2" />
+
+        <CheckBox
+            android:id="@+id/hold"
+            style="@style/Checkbox"
+            android:onClick="marketClick"
+            android:text="@string/market3" />
+
+        <CheckBox
+            android:id="@+id/fish"
+            style="@style/Checkbox"
+            android:onClick="marketClick"
+            android:text="@string/market4" />
+
+
+        <Button
+            style="@style/SubmitButton"
+            android:onClick="submitAnswer"
+            android:text="@string/submit" />
+    </LinearLayout>
+</ScrollView>
