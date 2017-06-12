@@ -20,25 +20,21 @@
         <CheckBox
             android:id="@+id/chain_bridge"
             style="@style/Checkbox"
-            android:onClick="bridgeClick"
             android:text="@string/bridge1" />
 
         <CheckBox
             android:id="@+id/nowhere_bridge"
             style="@style/Checkbox"
-            android:onClick="bridgeClick"
             android:text="@string/bridge2" />
 
         <CheckBox
             android:id="@+id/margaret_bridge"
             style="@style/Checkbox"
-            android:onClick="bridgeClick"
             android:text="@string/bridge3" />
 
         <CheckBox
             android:id="@+id/neverending_bridge"
             style="@style/Checkbox"
-            android:onClick="bridgeClick"
             android:text="@string/bridge4" />
 
         <TextView
@@ -48,8 +44,7 @@
         <EditText
             android:id="@+id/capital"
             style="@style/Edittext"
-            android:hint="@string/hint"
-            android:onClick="capitalClick" />
+            android:hint="@string/hint" />
 
         <TextView
             style="@style/Question_style"
@@ -60,13 +55,11 @@
             <RadioButton
                 android:id="@+id/yes_button"
                 style="@style/Radiobutton"
-                android:onClick="questionTram"
                 android:text="@string/yestram" />
 
             <RadioButton
                 android:id="@+id/no_button"
                 style="@style/Radiobutton"
-                android:onClick="questionTram"
                 android:text="@string/notram" />
 
         </RadioGroup>
@@ -80,13 +73,11 @@
             <RadioButton
                 android:id="@+id/buda_button"
                 style="@style/Radiobutton"
-                android:onClick="questionParliament"
                 android:text="@string/budap" />
 
             <RadioButton
                 android:id="@+id/pest_button"
                 style="@style/Radiobutton"
-                android:onClick="questionParliament"
                 android:text="@string/pestp" />
 
         </RadioGroup>
@@ -100,13 +91,11 @@
             <RadioButton
                 android:id="@+id/no2_button"
                 style="@style/Radiobutton"
-                android:onClick="questionDanube"
                 android:text="@string/no2" />
 
             <RadioButton
                 android:id="@+id/no4_button"
                 style="@style/Radiobutton"
-                android:onClick="questionDanube"
                 android:text="@string/no4" />
 
         </RadioGroup>
@@ -118,27 +107,22 @@
         <CheckBox
             android:id="@+id/lehel"
             style="@style/Checkbox"
-            android:onClick="marketClick"
             android:text="@string/market1" />
 
         <CheckBox
             android:id="@+id/vasar"
             style="@style/Checkbox"
-            android:onClick="marketClick"
             android:text="@string/market2" />
 
         <CheckBox
             android:id="@+id/hold"
             style="@style/Checkbox"
-            android:onClick="marketClick"
             android:text="@string/market3" />
 
         <CheckBox
             android:id="@+id/fish"
             style="@style/Checkbox"
-            android:onClick="marketClick"
             android:text="@string/market4" />
-
 
         <Button
             style="@style/SubmitButton"
